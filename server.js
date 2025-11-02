@@ -82,24 +82,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`✅ Servidor rodando na porta ${PORT}`);
 });
-```
-
-Clique em **"Commit changes"**
-
----
-
-### **Arquivo 3: `.gitignore`**
-
-**Clique em "Add file" → "Create new file"**
-
-Nome: `.gitignore`
-
-Conteúdo (copie e cole):
-```
-node_modules/
-.env
-.DS_Store
-*.log
-dist/
-.vscode/
-.idea/
